@@ -1,0 +1,34 @@
+{
+  "name": "autotesting-frontend",
+  "version": "1.0.0",
+  "description": "Boilerplate for autotesting frontend",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:dev": "mocha",
+    "serve-website": "npx http-server test-website -p 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagleeye/autotesting-frontend.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "mocha",
+    "tests"
+  ],
+  "author": "Andrii Shumada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eagleeye/autotesting-frontend/issues"
+  },
+  "homepage": "https://github.com/eagleeye/autotesting-frontend#readme",
+  "private": true,
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "9.0.2",
+    "puppeteer": "10.1.0"
+  }
+}
