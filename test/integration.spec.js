@@ -23,7 +23,7 @@ describe('Integration', () => {
 		await page.click('[aria-controls="home"]');
 	});
 
-	it.only('should test form', async () => {
+	it('should test form', async () => {
 		await page.click('form.form-horizontal [type=email]');
 		await page.keyboard.type('thisisnotvalidemail', { delay: 10 }); // Types slower, like a user
 		const text = `Please include an '@' in the email address. 'thisisnotvalidemail' is missing an '@'.`;
