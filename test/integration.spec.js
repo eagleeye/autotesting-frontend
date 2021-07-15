@@ -4,7 +4,6 @@ const sleep = (time) => new Promise(r => setTimeout(r, time));
 
 describe('Integration', () => {
 	let page;
-
 	before('Init', async () => {
 		page = await init();
 	});
